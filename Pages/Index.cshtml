@@ -5,6 +5,11 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome to My Todos App</h1>
+    <h1 class="display-4">My Todos</h1>
     <p>Hello, World! The time on the server is @DateTime.Now</p>
 </div>
+
+@foreach (var todo in Model.Todos)
+{
+    <h2>@todo.Title</h2>    
+}
