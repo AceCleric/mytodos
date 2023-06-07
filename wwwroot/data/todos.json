@@ -1,0 +1,8 @@
+[
+  {
+    "id": "1",
+    "title": "First Todo",
+    "description": "My first todo",
+    "finished": false
+  }
+]
